@@ -29,290 +29,196 @@ public class KTP {
     private String kotaPembuatan;
     private String tanggalPembuatan;
 
-
-
     public String getNik() {
-      return nik;
+        return nik;
     }
-
-
 
     public void setNik(String nik) {
-      this.nik = nik;
+        this.nik = nik;
     }
-
-
 
     public String getNama() {
-      return nama;
+        return nama;
     }
-
-
 
     public void setNama(String nama) {
-      this.nama = nama;
+        this.nama = nama;
     }
-
-
 
     public String getTempatLahir() {
-      return tempatLahir;
+        return tempatLahir;
     }
-
-
 
     public void setTempatLahir(String tempatLahir) {
-      this.tempatLahir = tempatLahir;
+        this.tempatLahir = tempatLahir;
     }
-
-
 
     public String getTanggalLahir() {
-      return tanggalLahir;
+        return tanggalLahir;
     }
-
-
 
     public void setTanggalLahir(String tanggalLahir) {
-      this.tanggalLahir = tanggalLahir;
+        this.tanggalLahir = tanggalLahir;
     }
-
-
 
     public JenisKelamin getJenisKelamin() {
-      return jenisKelamin;
+        return jenisKelamin;
     }
-
-
 
     public void setJenisKelamin(JenisKelamin jenisKelamin) {
-      this.jenisKelamin = jenisKelamin;
+        this.jenisKelamin = jenisKelamin;
     }
-
-
 
     public String getGolDarah() {
-      return golDarah;
+        return golDarah;
     }
-
-
 
     public void setGolDarah(String golDarah) {
-      this.golDarah = golDarah;
+        this.golDarah = golDarah;
     }
-
-
 
     public String getAlamat() {
-      return alamat;
+        return alamat;
     }
-
-
 
     public void setAlamat(String alamat) {
-      this.alamat = alamat;
+        this.alamat = alamat;
     }
-
-
 
     public String getRt() {
-      return rt;
+        return rt;
     }
-
-
 
     public void setRt(String rt) {
-      this.rt = rt;
+        this.rt = rt;
     }
-
-
 
     public String getRw() {
-      return rw;
+        return rw;
     }
-
-
 
     public void setRw(String rw) {
-      this.rw = rw;
+        this.rw = rw;
     }
-
-
 
     public String getKelDesa() {
-      return kelDesa;
+        return kelDesa;
     }
-
-
 
     public void setKelDesa(String kelDesa) {
-      this.kelDesa = kelDesa;
+        this.kelDesa = kelDesa;
     }
-
-
 
     public String getKecamatan() {
-      return kecamatan;
+        return kecamatan;
     }
-
-
 
     public void setKecamatan(String kecamatan) {
-      this.kecamatan = kecamatan;
+        this.kecamatan = kecamatan;
     }
-
-
 
     public JenisAgama getAgama() {
-      return agama;
+        return agama;
     }
-
-
 
     public void setAgama(JenisAgama agama) {
-      this.agama = agama;
+        this.agama = agama;
     }
-
-
 
     public StatusPerkawinan getStatusPerkawinan() {
-      return statusPerkawinan;
+        return statusPerkawinan;
     }
-
-
 
     public void setStatusPerkawinan(StatusPerkawinan statusPerkawinan) {
-      this.statusPerkawinan = statusPerkawinan;
+        this.statusPerkawinan = statusPerkawinan;
     }
-
-
 
     public String getPekerjaan() {
-      return pekerjaan;
+        return pekerjaan;
     }
-
-
 
     public void setPekerjaan(String pekerjaan) {
-      this.pekerjaan = pekerjaan;
+        this.pekerjaan = pekerjaan;
     }
-
-
 
     public String getKewarganegaraan() {
-      return kewarganegaraan;
+        return kewarganegaraan;
     }
-
-
 
     public void setKewarganegaraan(String kewarganegaraan) {
-      this.kewarganegaraan = kewarganegaraan;
+        this.kewarganegaraan = kewarganegaraan;
     }
-
-
 
     public String getWargaNegaraAsal() {
-      return wargaNegaraAsal;
+        return wargaNegaraAsal;
     }
-
-
 
     public void setWargaNegaraAsal(String wargaNegaraAsal) {
-      this.wargaNegaraAsal = wargaNegaraAsal;
+        this.wargaNegaraAsal = wargaNegaraAsal;
     }
-
-
 
     public File getFotoFilePath() {
-      return fotoFilePath;
+        return fotoFilePath;
     }
-
-
 
     public void setFotoFilePath(File fotoFilePath) {
-      this.fotoFilePath = fotoFilePath;
+        this.fotoFilePath = fotoFilePath;
     }
-
-
 
     public File getTandaTanganFilePath() {
-      return tandaTanganFilePath;
+        return tandaTanganFilePath;
     }
-
-
 
     public void setTandaTanganFilePath(File tandaTanganFilePath) {
-      this.tandaTanganFilePath = tandaTanganFilePath;
+        this.tandaTanganFilePath = tandaTanganFilePath;
     }
-
-
 
     public String getBerlakuHingga() {
-      return berlakuHingga;
+        return berlakuHingga;
     }
-
-
 
     public void setBerlakuHingga(String berlakuHingga) {
-      this.berlakuHingga = berlakuHingga;
+        this.berlakuHingga = berlakuHingga;
     }
-
-
 
     public String getKotaPembuatan() {
-      return kotaPembuatan;
+        return kotaPembuatan;
     }
-
-
 
     public void setKotaPembuatan(String kotaPembuatan) {
-      this.kotaPembuatan = kotaPembuatan;
+        this.kotaPembuatan = kotaPembuatan;
     }
-
-
 
     public String getTanggalPembuatan() {
-      return tanggalPembuatan;
+        return tanggalPembuatan;
     }
-
-
 
     public void setTanggalPembuatan(String tanggalPembuatan) {
-      this.tanggalPembuatan = tanggalPembuatan;
+        this.tanggalPembuatan = tanggalPembuatan;
     }
 
-
-
-    public KTP(String nik, String nama, String tempatLahir, String tanggalLahir, JenisKelamin jenisKelamin,
-        String golDarah, String alamat, String rt, String rw, String kelDesa, String kecamatan, JenisAgama agama,
-        StatusPerkawinan statusPerkawinan, String pekerjaan, String kewarganegaraan, String wargaNegaraAsal,
-        File fotoFilePath, File tandaTanganFilePath, String berlakuHingga, String kotaPembuatan,
-        String tanggalPembuatan) {
-      this.nik = nik;
-      this.nama = nama;
-      this.tempatLahir = tempatLahir;
-      this.tanggalLahir = tanggalLahir;
-      this.jenisKelamin = jenisKelamin;
-      this.golDarah = golDarah;
-      this.alamat = alamat;
-      this.rt = rt;
-      this.rw = rw;
-      this.kelDesa = kelDesa;
-      this.kecamatan = kecamatan;
-      this.agama = agama;
-      this.statusPerkawinan = statusPerkawinan;
-      this.pekerjaan = pekerjaan;
-      this.kewarganegaraan = kewarganegaraan;
-      this.wargaNegaraAsal = wargaNegaraAsal;
-      this.fotoFilePath = fotoFilePath;
-      this.tandaTanganFilePath = tandaTanganFilePath;
-      this.berlakuHingga = berlakuHingga;
-      this.kotaPembuatan = kotaPembuatan;
-      this.tanggalPembuatan = tanggalPembuatan;
+    public KTP(String nik, String nama, String tempatLahir, String tanggalLahir, JenisKelamin jenisKelamin, String golDarah, String alamat, String rt, String rw, String kelDesa, String kecamatan, JenisAgama agama, StatusPerkawinan statusPerkawinan, String pekerjaan, String kewarganegaraan, String wargaNegaraAsal, File fotoFilePath, File tandaTanganFilePath, String berlakuHingga, String kotaPembuatan, String tanggalPembuatan) {
+        this.nik = nik;
+        this.nama = nama;
+        this.tempatLahir = tempatLahir;
+        this.tanggalLahir = tanggalLahir;
+        this.jenisKelamin = jenisKelamin;
+        this.golDarah = golDarah;
+        this.alamat = alamat;
+        this.rt = rt;
+        this.rw = rw;
+        this.kelDesa = kelDesa;
+        this.kecamatan = kecamatan;
+        this.agama = agama;
+        this.statusPerkawinan = statusPerkawinan;
+        this.pekerjaan = pekerjaan;
+        this.kewarganegaraan = kewarganegaraan;
+        this.wargaNegaraAsal = wargaNegaraAsal;
+        this.fotoFilePath = fotoFilePath;
+        this.tandaTanganFilePath = tandaTanganFilePath;
+        this.berlakuHingga = berlakuHingga;
+        this.kotaPembuatan = kotaPembuatan;
+        this.tanggalPembuatan = tanggalPembuatan;
     }
 
-
-
-
-    
 }

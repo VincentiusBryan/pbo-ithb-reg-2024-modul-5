@@ -21,8 +21,6 @@ public class DateLabelFormatter extends AbstractFormatter {
             Calendar cal = (Calendar) value;
             return dateFormatter.format(cal.getTime());
         }
-
         return "";
     }
-    
 }

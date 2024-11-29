@@ -14,14 +14,12 @@ import org.jdatepicker.impl.DateComponentFormatter;
 
 public class Lat {
     public static void main(String[] args) {
-        // ===== CONTAINER 
         JFrame form = new JFrame("Latihan");
         form.setSize(400, 600);
         form.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         form.setLocationRelativeTo(null);
         form.setLayout(null);
 
-        // ===== COMPONENT
         JLabel labelJudul = new JLabel("Latihan Komponen");
         labelJudul.setBounds(140, 30, 150, 30);
         form.add(labelJudul);
@@ -31,14 +29,13 @@ public class Lat {
         form.add(namaBuku);
 
         JTextField textFieldkodeBuku = new JTextField();
-        textFieldkodeBuku.setBounds(120, 80, 150, 30); // Perbaikan posisi
+        textFieldkodeBuku.setBounds(120, 80, 150, 30); 
         form.add(textFieldkodeBuku);
 
         JLabel tanggalLahir = new JLabel("Tanggal Lahir");
         tanggalLahir.setBounds(20, 140, 100, 20);
         form.add(tanggalLahir);
 
-        // Konfigurasi JDatePicker
         UtilDateModel model = new UtilDateModel();
         Properties p = new Properties();
         p.put("text.today", "Today");
@@ -54,7 +51,6 @@ public class Lat {
         submitButton.setBounds(20, 200, 200, 30);
         form.add(submitButton);
 
-        // ActionListener untuk tombol SUBMIT
         submitButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String nama = textFieldkodeBuku.getText();
@@ -68,7 +64,6 @@ public class Lat {
                 }
             }
         });
-
-        form.setVisible(true); // Menampilkan form
+        form.setVisible(true);
     }
 }
